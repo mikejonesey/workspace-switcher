@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="workspace-switcher" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/workspace-switcher" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="`wx-config --toolkit=gtk2 --unicode=yes --debug=yes --static=yes --cppflags`" />
+				</Compiler>
+				<Linker>
+					<Add option="`wx-config --toolkit=gtk2 --unicode=yes --debug=yes --static=yes --libs`" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/workspace-switcher" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-fPIC -I/home/mike/usr/local/lib/wx/include/gtk2-unicode-static-3.1 -I/home/mike/usr/local/include/wx-3.1 -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -static" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-fPIC" />
+					<Add option="-L/home/mike/usr/local/lib" />
+					<Add option="-pthread" />
+					<Add option="/home/mike/usr/local/lib/libwx_gtk2u_xrc-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_gtk2u_qa-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_baseu_net-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_gtk2u_html-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_gtk2u_adv-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_gtk2u_core-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_baseu_xml-3.1.a" />
+					<Add option="/home/mike/usr/local/lib/libwx_baseu-3.1.a" />
+					<Add option="-lgthread-2.0" />
+					<Add option="-lX11" />
+					<Add option="-lXxf86vm" />
+					<Add option="-lSM" />
+					<Add option="-lgtk-x11-2.0" />
+					<Add option="-lgdk-x11-2.0" />
+					<Add option="-lpangocairo-1.0" />
+					<Add option="-latk-1.0" />
+					<Add option="-lcairo" />
+					<Add option="-lgdk_pixbuf-2.0" />
+					<Add option="-lgio-2.0" />
+					<Add option="-lpangoft2-1.0" />
+					<Add option="-lpango-1.0" />
+					<Add option="-lgobject-2.0" />
+					<Add option="-lglib-2.0" />
+					<Add option="-lfontconfig" />
+					<Add option="-lfreetype" />
+					<Add option="-lpng" />
+					<Add option="-ljpeg" />
+					<Add option="-ltiff" />
+					<Add option="-lexpat" />
+					<Add option="-lwxregexu-3.1" />
+					<Add option="-lz" />
+					<Add option="-ldl" />
+					<Add option="-lm" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="GUIFrame.cpp" />
+		<Unit filename="GUIFrame.h" />
+		<Unit filename="WxWizFrame.fbp" />
+		<Unit filename="image/workspace-1.h" />
+		<Unit filename="image/workspace-2.h" />
+		<Unit filename="image/workspace-3.h" />
+		<Unit filename="image/workspace-4.h" />
+		<Unit filename="image/workspace-5.h" />
+		<Unit filename="image/workspace-6.h" />
+		<Unit filename="image/workspace-7.h" />
+		<Unit filename="image/workspace-8.h" />
+		<Unit filename="workspace_switcherApp.cpp" />
+		<Unit filename="workspace_switcherApp.h" />
+		<Unit filename="workspace_switcherMain.cpp" />
+		<Unit filename="workspace_switcherMain.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
