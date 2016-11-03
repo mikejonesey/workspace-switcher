@@ -22,24 +22,17 @@ enum
     TIMER_ID= 10
 };
 
-//#include <wx/dcmemory.h>
-
 class workspace_switcherFrame: public GUIFrame
 {
     public:
         workspace_switcherFrame(wxFrame *frame, long myDesktopi);
         ~workspace_switcherFrame();
-        //wxPaintDC *dc;
         long setmyDesktopi;
         wxBitmap workf;
         wxRegion* myRegion;
         virtual void OnTimerTimeout(wxTimerEvent& event);
     private:
-        virtual void onActiv( wxActivateEvent& event);
-        //virtual void testMoo( wxKeyEvent& event );
         virtual void OnPaint( wxPaintEvent& event );
-        virtual void OnIdle( wxIdleEvent& event );
-        //wxBitmap workf;
 };
 
 #endif // WORKSPACE_SWITCHERMAIN_H

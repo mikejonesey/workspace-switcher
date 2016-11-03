@@ -17,9 +17,6 @@
 
 #include "workspace_switcherApp.h"
 #include "workspace_switcherMain.h"
-#include "include/SleepKillThread.h"
-#include "image/workspace-8.h"
-#include "wx/dcclient.h"
 
 IMPLEMENT_APP(workspace_switcherApp);
 
@@ -71,36 +68,11 @@ bool workspace_switcherApp::OnInit()
             myDesktopi=0;
         }
     }
-    myPopUp = new workspace_switcherFrame(0L,myDesktopi);
+    workspace_switcherFrame* myPopUp = new workspace_switcherFrame(0L,myDesktopi);
     myPopUp->Show();
-    //wxMilliSleep(3000);
-    //OnExit();
-/*
-
-    wxBitmap workf = wxBITMAP_PNG_FROM_DATA(work8);
-    wxRegion* myRegion = new wxRegion(workf, *wxBLACK);
-    wxPaintDC dc(frame);
-    frame->SetShape(*myRegion);
-    dc.DrawBitmap(workf, 0, 0, true);
-    frame->Show();
-
-
-
-
-    wxMilliSleep(3000);
-    frame->Hide();
-    frame->Destroy();
-    //frame->Refresh();
-    //wxMilliSleep(450);
-    //frame->Hide();
-    //SleepKillThread* slk = new SleepKillThread(frame);
-    //new SleepKillThread(frame);
-
-    */
     return true;
 }
 
 int workspace_switcherApp::OnExit(){
-    delete myPopUp;
     return 0;
 }

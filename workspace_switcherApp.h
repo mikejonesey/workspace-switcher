@@ -19,7 +19,6 @@ class workspace_switcherApp : public wxApp
 {
     public:
         virtual bool OnInit();
-        wxFrame* myPopUp;
     private:
         virtual int OnExit() wxOVERRIDE;
 
