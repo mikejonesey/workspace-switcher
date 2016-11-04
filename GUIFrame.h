@@ -35,7 +35,7 @@ class GUIFrame : public wxFrame
 
 	public:
 
-		GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Workspace Switcher"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 185,89 ), long style = wxFRAME_NO_TASKBAR|wxFRAME_SHAPED|wxNO_BORDER );
+		GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Workspace Switcher"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 195,95 ), long style = wxFRAME_NO_TASKBAR|wxFRAME_SHAPED|wxNO_BORDER );
 		~GUIFrame();
 
 };

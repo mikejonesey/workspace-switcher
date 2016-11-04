@@ -1756,7 +1756,7 @@
 	<wx/wx.h>
 	"GUIFrame.h"
 
-1478202305 /home/mike/src/workspace-switcher/GUIFrame.h
+1478219344 /home/mike/src/workspace-switcher/GUIFrame.h
 	<wx/string.h>
 	<wx/frame.h>
 	<wx/gdicmn.h>
@@ -1764,13 +1764,10 @@
 	<wx/colour.h>
 	<wx/settings.h>
 
-1478211225 source:/home/mike/src/workspace-switcher/workspace_switcherApp.cpp
+1478213542 source:/home/mike/src/workspace-switcher/workspace_switcherApp.cpp
 	"wx_pch.h"
 	"workspace_switcherApp.h"
 	"workspace_switcherMain.h"
-	"include/SleepKillThread.h"
-	"image/workspace-8.h"
-	"wx/dcclient.h"
 
 1478213175 /home/mike/src/workspace-switcher/workspace_switcherApp.h
 	"workspace_switcherMain.h"
@@ -1785,9 +1782,9 @@
 	"wx/menu.h"
 	<wx/timer.h>
 
-1478175793 /home/mike/src/workspace-switcher/image/workspace-1.h
+1478218221 /home/mike/src/workspace-switcher/image/workspace-1.h
 
-1478176174 /home/mike/src/workspace-switcher/image/workspace-2.h
+1478219579 /home/mike/src/workspace-switcher/image/workspace-2.h
 
 1478175538 /home/mike/src/workspace-switcher/image/workspace-3.h
 
@@ -1801,7 +1798,7 @@
 
 1478175576 /home/mike/src/workspace-switcher/image/workspace-8.h
 
-1478213037 source:/home/mike/src/workspace-switcher/workspace_switcherMain.cpp
+1478218658 source:/home/mike/src/workspace-switcher/workspace_switcherMain.cpp
 	"wx_pch.h"
 	"workspace_switcherMain.h"
 	"wx/dcclient.h"
@@ -1819,4 +1816,64 @@
 
 1478198220 /home/mike/src/workspace-switcher/include/SleepKillThread.h
 	"../workspace_switcherMain.h"
+
+1478202330 source:/home/mike/git/linux-tools/workspace-switcher/GUIFrame.cpp
+	"wx/wxprec.h"
+	<wx/wx.h>
+	"GUIFrame.h"
+
+1478219344 /home/mike/git/linux-tools/workspace-switcher/GUIFrame.h
+	<wx/string.h>
+	<wx/frame.h>
+	<wx/gdicmn.h>
+	<wx/font.h>
+	<wx/colour.h>
+	<wx/settings.h>
+
+1478213542 source:/home/mike/git/linux-tools/workspace-switcher/workspace_switcherApp.cpp
+	"wx_pch.h"
+	"workspace_switcherApp.h"
+	"workspace_switcherMain.h"
+
+1478213175 /home/mike/git/linux-tools/workspace-switcher/workspace_switcherApp.h
+	"workspace_switcherMain.h"
+	<wx/app.h>
+	<wx/msgdlg.h>
+
+1478213075 /home/mike/git/linux-tools/workspace-switcher/workspace_switcherMain.h
+	"workspace_switcherApp.h"
+	"GUIFrame.h"
+	<wx/mstream.h>
+	"wx/image.h"
+	"wx/menu.h"
+	<wx/timer.h>
+
+1478284800 source:/home/mike/git/linux-tools/workspace-switcher/workspace_switcherMain.cpp
+	"wx_pch.h"
+	"workspace_switcherMain.h"
+	"wx/dcclient.h"
+	"image/workspace-1.h"
+	"image/workspace-2.h"
+	"image/workspace-3.h"
+	"image/workspace-4.h"
+	"image/workspace-5.h"
+	"image/workspace-6.h"
+	"image/workspace-7.h"
+	"image/workspace-8.h"
+
+1478285180 /home/mike/git/linux-tools/workspace-switcher/image/workspace-1.h
+
+1478285308 /home/mike/git/linux-tools/workspace-switcher/image/workspace-2.h
+
+1478285408 /home/mike/git/linux-tools/workspace-switcher/image/workspace-3.h
+
+1478285480 /home/mike/git/linux-tools/workspace-switcher/image/workspace-4.h
+
+1478285624 /home/mike/git/linux-tools/workspace-switcher/image/workspace-5.h
+
+1478285740 /home/mike/git/linux-tools/workspace-switcher/image/workspace-6.h
+
+1478285786 /home/mike/git/linux-tools/workspace-switcher/image/workspace-7.h
+
+1478285853 /home/mike/git/linux-tools/workspace-switcher/image/workspace-8.h
 

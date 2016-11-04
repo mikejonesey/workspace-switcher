@@ -39,7 +39,6 @@ workspace_switcherFrame::workspace_switcherFrame(wxFrame *frame, long myDesktopi
 
     this->Move(*abc);
 
-
     if(myDesktopi==0){
         workf = wxBITMAP_PNG_FROM_DATA(work1);
     }else if(myDesktopi==1){
